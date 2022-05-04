@@ -4,8 +4,8 @@ public class Main {
         int refill = 582;
         int balanceAfter;
         if (refill > 1000) {
-            balanceAfter = balanceBefore + refill + refill/ 100;
-            } else {
+            balanceAfter = balanceBefore + refill + refill / 100;
+        } else {
             balanceAfter = balanceBefore + refill;
         }
         System.out.println(balanceAfter);
